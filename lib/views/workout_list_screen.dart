@@ -2,16 +2,19 @@ import 'package:flutter/material.dart';
 import '../models/workout.dart';
 import '../services/database_helper.dart';
 import '../views/add_workout_screen.dart';
-import '../views/settings_screen.dart'; // Ensure these are the correct imports for your screens
+import '../views/settings_screen.dart'; 
 import 'package:intl/intl.dart';
 
+/// This screen displays a list of workouts and offers navigation to add and settings screens.
 class WorkoutListScreen extends StatefulWidget {
+  const WorkoutListScreen({super.key});
+
   @override
-  _WorkoutListScreenState createState() => _WorkoutListScreenState();
+  WorkoutListScreenState createState() => WorkoutListScreenState();
 }
 
-class _WorkoutListScreenState extends State<WorkoutListScreen> {
-  List<Workout> workouts = []; // Initialized to an empty list
+class WorkoutListScreenState extends State<WorkoutListScreen> {
+  List<Workout> workouts = []; 
   bool isLoading = false;
 
   @override
@@ -26,10 +29,10 @@ class _WorkoutListScreenState extends State<WorkoutListScreen> {
     super.dispose();
   }
 
+  /// Fetches workouts from the database and updates the UI state.
   Future<void> refreshWorkouts() async {
     setState(() => isLoading = true);
     workouts = await DatabaseHelper.instance.readAllWorkouts();
-    print('Workouts after refresh: ${workouts.length}');
     setState(() => isLoading = false);
   }
 
@@ -37,104 +40,95 @@ class _WorkoutListScreenState extends State<WorkoutListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Workouts'),
-        backgroundColor: Colors.blue[800], // Enhanced AppBar color
+        title: const Text('My Workouts'),
+        backgroundColor: Colors.blue[800], 
       ),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.blue,
-              ),
-              child: Text(
-                'Menu',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 24,
-                ),
-              ),
-            ),
-            ListTile(
-              leading: Icon(Icons.add),
-              title: Text('Add New Workout'),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => AddWorkoutScreen()),
-                ).then((_) => refreshWorkouts());
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Settings'),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => SettingsScreen()),
-                ).then((_) => refreshWorkouts());
-              },
-            ),
-          ],
-        ),
-      ),
-      body: isLoading
-          ? Center(child: CircularProgressIndicator())
-          : workouts.isEmpty
-              ? Center(child: Text('No workouts added.', style: TextStyle(fontSize: 18, color: Colors.grey)))
-              : ListView.builder(
-                  itemCount: workouts.length,
-                  itemBuilder: (context, index) {
-                    final workout = workouts[index];
-                    List<Widget> details = [
-                      ListTile(
-                        title: Text("Workout on ${DateTime.parse(workout.date).toIso8601String()}"),
-                        subtitle: Text("${workout.exercises.length} exercises"),
-                      )
-                    ];
-
-                    if (workout.userWeight != null) {
-                      details.add(ListTile(
-                        title: Text("Weight"),
-                        subtitle: Text("${workout.userWeight} kg"),
-                      ));
-                    }
-
-                    if (workout.location != null) {
-                      details.add(ListTile(
-                        title: Text("Location"),
-                        subtitle: Text(workout.location!),
-                      ));
-                    }
-                    
-
-                    return Card(
-                      elevation: 4,
-                      margin: EdgeInsets.all(8),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: ExpansionTile(
-                        title: Text("Workout on ${DateFormat('yyyy-MM-dd').format(DateTime.parse(workout.date))}", style: TextStyle(fontWeight: FontWeight.bold)),
-                        subtitle: Text("${workout.exercises.length} exercises${workout.userWeight != null ? ' - ${workout.userWeight} kg' : ''}${workout.location != null ? ' at ${workout.location}' : ''}"),
-                        children: workout.exercises.map((exercise) => ListTile(
-                          title: Text(exercise.description),
-                          subtitle: Text('${exercise.weight} kg - ${exercise.sets} sets x ${exercise.reps} reps'),
-                        )).toList(),
-                      ),
-                    );
-                  },
-                ),
+      drawer: buildDrawer(context),
+      body: buildWorkoutList(),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.green,
-        child: Icon(Icons.add),
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => AddWorkoutScreen()),
-          ).then((_) => refreshWorkouts());
-        },
+        child: const Icon(Icons.add),
+        onPressed: () => Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => AddWorkoutScreen()),
+        ).then((_) => refreshWorkouts()),
+      ),
+    );
+  }
+
+  /// Builds the main drawer navigation for the app.
+  Widget buildDrawer(BuildContext context) {
+    return Drawer(
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: <Widget>[
+          const DrawerHeader(
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
+            child: Text(
+              'Menu',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 24,
+              ),
+            ),
+          ),
+          buildListTile(context, Icons.add, 'Add New Workout', AddWorkoutScreen()),
+          buildListTile(context, Icons.settings, 'Settings', SettingsScreen()),
+        ],
+      ),
+    );
+  }
+
+  /// Helper to build a ListTile for the drawer menu.
+  Widget buildListTile(BuildContext context, IconData icon, String title, Widget destinationScreen) {
+    return ListTile(
+      leading: Icon(icon),
+      title: Text(title),
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => destinationScreen),
+        ).then((_) => refreshWorkouts());
+      },
+    );
+  }
+
+  /// Builds the list of workouts or shows loading/empty messages.
+  Widget buildWorkoutList() {
+    if (isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    } else if (workouts.isEmpty) {
+      return const Center(child: Text('No workouts added.', style: TextStyle(fontSize: 18, color: Colors.grey)));
+    } else {
+      return ListView.builder(
+        itemCount: workouts.length,
+        itemBuilder: (context, index) => buildWorkoutCard(context, workouts[index]),
+      );
+    }
+  }
+
+  /// Builds a single workout card with detailed information.
+  Widget buildWorkoutCard(BuildContext context, Workout workout) {
+    return Card(
+      elevation: 4,
+      margin: const EdgeInsets.all(8),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: ExpansionTile(
+        title: Text(
+          "Workout on ${DateFormat('yyyy-MM-dd').format(DateTime.parse(workout.date))}",
+          style: const TextStyle(fontWeight: FontWeight.bold),
+        ),
+        subtitle: Text(
+          "${workout.exercises.length} exercises${workout.userWeight != null ? ' - ${workout.userWeight} kg' : ''}${workout.location != null ? ' at ${workout.location}' : ''}",
+        ),
+        children: workout.exercises.map((exercise) => ListTile(
+          title: Text(exercise.description),
+          subtitle: Text('${exercise.weight} kg - ${exercise.sets} sets x ${exercise.reps} reps'),
+        )).toList(),
       ),
     );
   }
