@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'exercise_detail.dart';
-import 'package:flutter/material.dart'; 
 
 class Workout {
   int? id;
