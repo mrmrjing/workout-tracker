@@ -41,17 +41,51 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My Workouts'),
-        backgroundColor: Colors.blue[800], 
+        backgroundColor: Colors.blue[800],
       ),
       drawer: buildDrawer(context),
       body: buildWorkoutList(),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.green,
-        child: const Icon(Icons.add),
-        onPressed: () => Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => AddWorkoutScreen()),
-        ).then((_) => refreshWorkouts()),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.blue[800],  // Ensures the bottom app bar is a solid color
+        child: Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            IconButton(
+              icon: const Icon(Icons.home, color: Colors.white),
+              onPressed: () {
+                // Home Screen or refresh current screen
+              },
+            ),
+            IconButton(
+              icon: const Icon(Icons.search, color: Colors.white),
+              onPressed: () {
+                // Navigate to Search or some other function
+              },
+            ),
+            IconButton(
+              icon: const Icon(Icons.add, color: Colors.white),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AddWorkoutScreen()),
+                ).then((_) => refreshWorkouts());
+              },
+            ),
+            IconButton(
+              icon: const Icon(Icons.notifications, color: Colors.white),
+              onPressed: () {
+                // Navigate to notifications or another function
+              },
+            ),
+            IconButton(
+              icon: const Icon(Icons.account_circle, color: Colors.white),
+              onPressed: () {
+                // Navigate to Account or settings screen
+              },
+            ),
+          ],
+        ),
       ),
     );
   }
