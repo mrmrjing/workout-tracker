@@ -1,0 +1,2271 @@
+[
+    {
+        "date": "2023-09-21",
+        "exercises": [
+        {
+            "description": "Converging Chest Press",
+            "weight": 43,
+            "sets": 4,
+            "reps": 6
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 36,
+            "sets": 4,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curl",
+            "weight": 23,
+            "sets": 4,
+            "reps": 6
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 4,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 12.5,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Forearm Curl",
+            "weight": 5,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Vertical Leg Raises",
+            "weight": 0,
+            "sets": 2,
+            "reps": 10
+        },
+        {
+            "description": "Pull Up",
+            "weight": 0,
+            "sets": 2,
+            "reps": 5
+        }
+        ]
+    },
+    {
+        "date": "2023-09-29",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 12.5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Shrugs",
+            "weight": 20,
+            "sets": 2,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2023-10-06",
+        "exercises": [
+        {
+            "description": "5km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 27:50"
+        },
+        {
+            "description": "Bicep Curl",
+            "weight": 20,
+            "sets": 1,
+            "reps": 7
+        }
+        ]
+    },
+    {
+        "date": "2023-10-11",
+        "exercises": [
+        {
+            "description": "Converging Chest Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Biceps Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Back Row",
+            "weight": 30,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Standing Bicep Curls",
+            "weight": 25,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-10-25",
+        "exercises": [
+        {
+        "description": "1km Fast Run",
+        "weight": 0,
+        "sets": 1,
+        "reps": 1,
+        "additionalInfo": "Fast pace"
+        },
+        {
+        "description": "Converging Chest Press",
+        "weight": 41,
+        "sets": 3,
+        "reps": 7
+        },
+        {
+        "description": "Bicep Curls",
+        "weight": 27,
+        "sets": 3,
+        "reps": 6
+        },
+        { 
+        "description": "Triceps Extension",
+        "weight": 27,
+        "sets": 3,
+        "reps": 6
+        }
+        ]
+    },
+    { 
+        "date": "2023-10-27",
+        "exercises": [
+        {
+        "description": "Bench Press",
+        "weight": 50,
+        "sets": 3,
+        "reps": 3
+        },
+        {
+        "description": "Seated Bicep Curls",
+        "weight": 15,
+        "sets": 3,
+        "reps": 6
+        }
+        ]
+    },
+    { 
+    "date": "2023-11-08",
+    "exercises": [
+      {
+        "description": "Converging Chest Press",
+        "weight": 41,
+        "sets": 3,
+        "reps": 6
+      },
+      {
+        "description": "Bicep Curls",
+        "weight": 23,
+        "sets": 3,
+        "reps": 6
+      },
+      {
+        "description": "Triceps Extensions",
+        "weight": 23,
+        "sets": 3,
+        "reps": 6
+      }
+    ]
+    },
+    {
+        "date": "2023-11-10",
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 70,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2023-11-17",
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 45,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Angled Leg Press",
+            "weight": 80,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2023-11-22",
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 3
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 20,
+            "sets": 3,
+            "reps": 10
+        }
+        ]
+    },
+    {
+        "date": "2023-11-25",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 4
+        },
+        {
+            "description": "Back Row",
+            "weight": 20,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "2.4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 11:47"
+        }
+        ]
+    },
+    {
+        "date": "2023-11-29",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 10,
+            "sets": 3,
+            "reps": 12
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 32,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Forearm Curls with Barbell",
+            "weight": 5,
+            "sets": 3,
+            "reps": 12
+        }
+        ]
+    },
+    {
+        "date": "2023-12-02",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 25,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2024-12-05",
+        "exercises": [
+        {
+            "description": "Forearms",
+            "weight": 5,
+            "sets": 1,
+            "reps": 10
+        },
+        {
+            "description": "Forearms",
+            "weight": 7.5,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Bench Press",
+            "weight": 10,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 15,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 25,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Inner Forearm Curl",
+            "weight": 7,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Pull Ups",
+            "weight": 0,
+            "sets": 6,
+            "reps": 5
+        },
+        {
+            "description": "2.4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 12:00"
+        }
+        ]
+    },
+    {
+        "date": "2023-10-25",
+        "exercises": [
+        {
+            "description": "1km Fast Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Fast pace"
+        },
+        {
+            "description": "Converging Bench Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2023-10-27",
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 30,
+            "sets": 3,
+            "reps": 3
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 15,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2023-11-08",
+        "exercises": [
+        {
+            "description": "Converging Bench Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Triceps Extensions",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2023-11-10",
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 30,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 70,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2023-11-17",
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 45,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Angled Leg Press",
+            "weight": 80,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2023-11-22",
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 3
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 20,
+            "sets": 3,
+            "reps": 10
+        }
+        ]
+    },
+    {
+        "date": "2023-11-25",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 4
+        },
+        {
+            "description": "Back Row",
+            "weight": 20,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "2.4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 11:47"
+        }
+        ]
+    },
+    {
+        "date": "2023-11-29",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Forearm Curls with Barbell",
+            "weight": 10,
+            "sets": 3,
+            "reps": 12
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 32,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Forearm Curls with Barbell",
+            "weight": 5,
+            "sets": 3,
+            "reps": 12
+        }
+        ]
+    },
+    {
+        "date": "2023-12-02",
+        "exercises": [
+        {
+            "description": "Bicep Curls",
+            "weight": 12.5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 35,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2023-12-05",
+        "exercises": [
+        {
+            "description": "Forearm Curl",
+            "weight": 5,
+            "sets": 1,
+            "reps": 10
+        },
+        {
+            "description": "Forearm Curl",
+            "weight": 7.5,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Bench Press",
+            "weight": 10,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 35,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 12.5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Inner Forearm Curl",
+            "weight": 7,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Pull Ups",
+            "weight": 0,
+            "sets": 6,
+            "reps": 5
+        },
+        {
+            "description": "2.4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 12:00"
+        }
+        ]
+    },
+    {
+        "date": "2023-12-08",
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 45,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Squats",
+            "weight": 30,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Squats",
+            "weight": 40,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Squats",
+            "weight": 30,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Squats",
+            "weight": 60,
+            "sets": 1,
+            "reps": 3
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 32,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Leg Press Reverse",
+            "weight": 40,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Pull Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        }
+        ]
+    },
+    {
+        "date": "2023-12-11",
+        "exercises": [
+        {
+            "description": "Lats Pulldown",
+            "weight": 39,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Lats Pulldown",
+            "weight": 45,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Forearms Curl",
+            "weight": 5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 20,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 25,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Inner Forearm Curl",
+            "weight": 9,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Back Row",
+            "weight": 20,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curl",
+            "weight": 25,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Shoulder Shrugs",
+            "weight": 40,
+            "sets": 3,
+            "reps": 10
+        },
+        {
+            "description": "Longpull",
+            "weight": 45,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "2.4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 12:12"
+        }
+        ]
+    },
+    {
+        "date": "2023-12-13",
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 30,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 50,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Lats Pulldown",
+            "weight": 39,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Forearm Curl",
+            "weight": 5,
+            "sets": 1,
+            "reps": 10
+        },
+        {
+            "description": "Forearm Curl",
+            "weight": 7.5,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Inner Forearm Curl",
+            "weight": 7,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 2,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2023-12-16",
+        "weight": 63.3,
+        "exercises": [
+        {
+            "description": "Deadlifts",
+            "weight": 40,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Squats",
+            "weight": 40,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Squats",
+            "weight": 50,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Inclined Chest Press",
+            "weight": 30,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Inclined Chest Press",
+            "weight": 40,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Bench Press",
+            "weight": 30,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 3
+        },
+        {
+            "description": "Planks",
+            "weight": 0,
+            "sets": 3,
+            "reps": 1,
+            "additionalInfo": "1 min per set"
+        },
+        {
+            "description": "Pushups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Sit-ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        }
+        ]
+    },
+    {
+        "date": "2023-12-23",
+        "weight": 63.4,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 4
+        },
+        {
+            "description": "Side Pulls",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 24:09, Speed: 10 km/h"
+        },
+        {
+            "description": "Push Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Pull Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Planks",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "1 min"
+        }
+        ]
+    },
+    {
+        "date": "2023-12-24",
+        "weight": 63.6,
+        "exercises": [
+        {
+            "description": "Forearms Curl",
+            "weight": 10,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Forearms Curl",
+            "weight": 5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 15,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 12.5,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Bent Over Lats Pull Downs",
+            "weight": 46,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Lats Pulldown",
+            "weight": 36,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Rear Delts",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Sit Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Russian Twist",
+            "weight": 16,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Leg Raises",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Planks",
+            "weight": 0,
+            "sets": 3,
+            "reps": 1,
+            "additionalInfo": "1 min per set"
+        }
+        ]
+    },
+    {
+        "date": "2023-12-30",
+        "exercises": [
+        {
+            "description": "Rear Delts",
+            "weight": 27,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Seated Bicep Curls",
+            "weight": 25,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Lats Pull Down",
+            "weight": 50,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 1,
+            "reps": 9
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Back Row",
+            "weight": 15,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Back Row",
+            "weight": 20,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Back Row",
+            "weight": 25,
+            "sets": 1,
+            "reps": 15
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-06-06",
+        "weight": 61.9,
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 36,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Squats",
+            "weight": 40,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Squats",
+            "weight": 50,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 25,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Pull-Ups",
+            "weight": 0,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "1km Cool Down Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Short distance, fast pace"
+        }
+        ]
+    },
+    {
+        "date": "2024-06-16",
+        "weight": 62.2,
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Squats",
+            "weight": 20,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Tricep Extensions",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 32,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Overhead Press",
+            "weight": 20,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Lats Pulldown",
+            "weight": 45,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Planks",
+            "weight": 0,
+            "sets": 2,
+            "reps": 1,
+            "additionalInfo": "60 seconds each"
+        }
+        ]
+    },
+    {
+        "date": "2024-06-19",
+        "weight": 61.8,
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 30,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 50,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Lats Pulldown",
+            "weight": 45,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 15,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 27,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Forearm Curl",
+            "weight": 15,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Abdominal",
+            "weight": 41,
+            "sets": 2,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-06-20",
+        "exercises": [
+        {
+            "description": "2.4km Run",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "Time: 13 mins"
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 36,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 36,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 7,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 6,
+            "sets": 2,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-06-21",
+        "weight": 62.2,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Squats",
+            "weight": 20,
+            "sets": 1,
+            "reps": 10,
+            "additionalInfo": "Warmup"
+        },
+        {
+            "description": "Squats",
+            "weight": 50,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 30,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Deadlift",
+            "weight": 40,
+            "sets": 3,
+            "reps": 7
+        }
+        ]
+    },
+    {
+        "date": "2024-06-22",
+        "weight": 62.9,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Back Row",
+            "weight": 15,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 6,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Bicep Curl",
+            "weight": 25,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Deadlift",
+            "weight": 50,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Inclined Bench Press",
+            "weight": 40,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Pull-Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        }
+        ]
+    },
+    {
+        "date": "2024-06-24",
+        "weight": 62.8,
+        "exercises": [
+        {
+            "description": "Shoulder Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Shoulder Shrugs",
+            "weight": 15,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 25,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 7,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Pull-Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        }
+        ]
+    },
+    {
+        "date": "2024-06-25",
+        "weight": 63,
+        "exercises": [
+        {
+            "description": "Converging Chest Press",
+            "weight": 36,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 41,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Back Row",
+            "weight": 15,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curl",
+            "weight": 23,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Pec Fly",
+            "weight": 45,
+            "sets": 1,
+            "reps": 4
+        },
+        {
+            "description": "Back Extension",
+            "weight": 36,
+            "sets": 2,
+            "reps": 4
+        }
+        ]
+    },
+    {
+        "date": "2024-06-29",
+        "weight": 62.8,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Deadlifts",
+            "weight": 50,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 25,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Seated Triceps Extension",
+            "weight": 12.5,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 7,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Wrist",
+            "weight": 5,
+            "sets": 3,
+            "reps": 10
+        },
+        {
+            "description": "Dumbbell Row",
+            "weight": 15,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Pull-Ups",
+            "weight": 0,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Planks",
+            "weight": 0,
+            "sets": 3,
+            "reps": 1,
+            "additionalInfo": "60 seconds each"
+        }
+        ]
+    },
+    {
+        "date": "2024-07-01",
+        "exercises": [
+        {
+            "description": "Pullups",
+            "weight": 0,
+            "sets": 1,
+            "reps": 10
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 30,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 60,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 64,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Back Row",
+            "weight": 20,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 12.5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 18,
+            "sets": 3,
+            "reps": 7
+        }
+        ]
+    },
+    {
+        "date": "2024-07-02",
+        "exercises": [
+        {
+            "description": "Pull-ups",
+            "weight": 0,
+            "sets": 1,
+            "reps": 3
+        },
+        {
+            "description": "Leg Press",
+            "weight": 73,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Calf Raises",
+            "weight": 30,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 18,
+            "sets": 3,
+            "reps": 10
+        },
+        {
+            "description": "Leg Extension",
+            "weight": 18,
+            "sets": 3,
+            "reps": 10
+        },
+        {
+            "description": "Long Pull",
+            "weight": 23,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Pulldown",
+            "weight": 32,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 18,
+            "sets": 2,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2024-07-08",
+        "weight": 63.2,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Chest Press",
+            "weight": 30,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 23,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Concentrated Biceps Curl",
+            "weight": 30,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 7,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 23,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 32,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 36,
+            "sets": 1,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2024-07-09",
+        "weight": 62.8,
+        "exercises": [
+        {
+            "description": "Boxing",
+            "weight": 0,
+            "sets": 1,
+            "reps": 1,
+            "additionalInfo": "45 mins session"
+        },
+        {
+            "description": "Squats",
+            "weight": 40,
+            "sets": 1,
+            "reps": 10
+        },
+        {
+            "description": "Squats",
+            "weight": 60,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Squats",
+            "weight": 80,
+            "sets": 1,
+            "reps": 1
+        },
+        {
+            "description": "Squats",
+            "weight": 60,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Back Row",
+            "weight": 20,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Deadlifts",
+            "weight": 60,
+            "sets": 1,
+            "reps": 7
+        },
+        {
+            "description": "Deadlifts",
+            "weight": 80,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 45,
+            "sets": 2,
+            "reps": 5
+        }
+        ]
+    },
+    {
+        "date": "2024-07-10",
+        "location": "AF Orchard gateway",
+        "exercises": [
+        {
+            "description": "Barbell Curl",
+            "weight": 20,
+            "sets": 3,
+            "reps": 10
+        },
+        {
+            "description": "Weights Bench",
+            "weight": 25,
+            "sets": 1,
+            "reps": 10
+        },
+        {
+            "description": "Weights Bench",
+            "weight": 30,
+            "sets": 2,
+            "reps": 9
+        },
+        {
+            "description": "Tricep Extensions",
+            "weight": 15,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Incline Press",
+            "weight": 30,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 32.5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Row",
+            "weight": 20,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Row",
+            "weight": 30,
+            "sets": 2,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2024-07-11",
+        "location": "AF City Square Mall",
+        "exercises": [
+        {
+            "description": "Lats Pull Down",
+            "weight": 50,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Row",
+            "weight": 50,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Row",
+            "weight": 42.5,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "V Squat",
+            "weight": 40,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Hip Abduction",
+            "weight": 50,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Lats Pull Down",
+            "weight": 35,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Lats Pull Down",
+            "weight": 42.5,
+            "sets": 2,
+            "reps": 8
+        }
+        ]
+    },
+    {
+        "date": "2024-07-12",
+        "location": "AF Bugis",
+        "weight": 63.4,
+        "exercises": [
+        {
+            "description": "Biceps Curl",
+            "weight": 28,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Biceps Curl",
+            "weight": 24,
+            "sets": 2,
+            "reps": 7
+        },
+        {
+            "description": "Chest Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Chest Press",
+            "weight": 42.5,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Lats Pull Down",
+            "weight": 57.5,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Pectoral Fly",
+            "weight": 50,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 7,
+            "sets": 3,
+            "reps": 7
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 42.5,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 32.5,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "ISO Lateral Chest",
+            "weight": 40,
+            "sets": "Variable",
+            "reps": "Variable"
+        },
+        {
+            "description": "Assisted Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 7
+        }
+        ]
+    },
+    {
+        "date": "2024-07-16",
+        "weight": 63,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Inclined Bench Press",
+            "weight": 40,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 32,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Chest Press",
+            "weight": 30,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bicep Curl",
+            "weight": 15,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-07-18",
+        "weight": 63.2,
+        "exercises": [
+        {
+            "description": "Pec Fly",
+            "weight": 36,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Pec Fly",
+            "weight": 41,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Forearms Curl",
+            "weight": 10,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Forearms Curl",
+            "weight": 20,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 27,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 27,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Press",
+            "weight": 41,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Squats",
+            "weight": 60,
+            "sets": 3,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-07-19",
+        "weight": 62.8,
+        "exercises": [
+        {
+            "description": "Deadlifts",
+            "weight": 50,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Deadlifts",
+            "weight": 70,
+            "sets": 1,
+            "reps": 6
+        },
+        {
+            "description": "Deadlifts",
+            "weight": 80,
+            "sets": 2,
+            "reps": 5
+        },
+        {
+            "description": "Long Pull",
+            "weight": 36,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Back Extension",
+            "weight": 50,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 35,
+            "sets": 2,
+            "reps": 6
+        },
+        {
+            "description": "Bicep Curls",
+            "weight": 17.5,
+            "sets": 2,
+            "reps": 6
+        }
+        ]
+    },
+    {
+        "date": "2024-07-21",
+        "weight": 62.8,
+        "exercises": [
+        {
+            "description": "Bench Press",
+            "weight": 40,
+            "sets": 1,
+            "reps": 8
+        },
+        {
+            "description": "Bench Press",
+            "weight": 50,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Bench Press",
+            "weight": 55,
+            "sets": 1,
+            "reps": 4
+        },
+        {
+            "description": "Converging Chest Press",
+            "weight": 50,
+            "sets": 3,
+            "reps": 5
+        },
+        {
+            "description": "Concentrated Bicep Curls",
+            "weight": 15,
+            "sets": 3,
+            "reps": 6
+        },
+        {
+            "description": "Wrist",
+            "weight": 5,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Dumbbells Row",
+            "weight": 15,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 10,
+            "sets": 1,
+            "reps": 5
+        },
+        {
+            "description": "Side Lateral Raise",
+            "weight": 7.5,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Shoulder Shrug",
+            "weight": 20,
+            "sets": 2,
+            "reps": 8
+        },
+        {
+            "description": "Triceps Extension",
+            "weight": 27,
+            "sets": 3,
+            "reps": 9
+        }
+        ]
+    }
+]
+  
