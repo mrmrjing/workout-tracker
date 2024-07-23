@@ -22,6 +22,7 @@ class AddWorkoutScreenState extends State<AddWorkoutScreen> {
   final TextEditingController _controllerReps = TextEditingController();
   final TextEditingController _controllerFocus = TextEditingController();
   String? _date;
+  // ignore: unused_field
   bool _isLoading = false; // Indicates whether the submission is in progress.
 
   @override
@@ -130,19 +131,37 @@ class AddWorkoutScreenState extends State<AddWorkoutScreen> {
             children: <Widget>[
               _buildDateField(),
               _buildTextField(_controllerFocus, 'Workout Focus', 'Enter workout focus'),
-              ..._exercises.map(_buildExerciseTile).toList(),
+              ..._exercises.map(_buildExerciseTile),
               _buildTextField(_controllerDescription, 'Exercise Description', 'Enter exercise description'),
               _buildTextField(_controllerWeight, 'Weight (kg)', 'Enter weight', isNumeric: true),
               _buildTextField(_controllerSets, 'Sets', 'Enter number of sets', isNumeric: true),
               _buildTextField(_controllerReps, 'Reps', 'Enter number of reps', isNumeric: true),
-              ElevatedButton(onPressed: _addExerciseDetail, child: const Text('Add Exercise')),
-              ElevatedButton(onPressed: _submitData, child: const Text('Save Workout')),
+              _buildButton('Add Exercise', _addExerciseDetail),
+              _buildButton('Save Workout', _submitData),
             ],
           ),
         ),
       ),
     );
   }
+
+   Widget _buildButton(String title, VoidCallback onPressed) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      child: ElevatedButton(
+        onPressed: onPressed,
+        style: ElevatedButton.styleFrom(
+          foregroundColor: Colors.white, backgroundColor: Colors.deepPurple, 
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8), 
+          ),
+          padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 20), 
+        ),
+        child: Text(title),
+      ),
+    );
+  }
+
 
   /// Builds a text field for entering dates with a date picker.
   Widget _buildDateField() => TextFormField(
@@ -161,17 +180,25 @@ class AddWorkoutScreenState extends State<AddWorkoutScreen> {
     validator: (value) => value == null || value.isEmpty ? 'Please enter a date.' : null,
   );
 
-  /// Builds a generic text field for form inputs.
-  Widget _buildTextField(TextEditingController controller, String label, String errorText, {bool isNumeric = false}) => TextFormField(
-    controller: controller,
-    decoration: InputDecoration(labelText: label),
-    keyboardType: isNumeric ? TextInputType.number : TextInputType.text,
-    validator: (value) {
-      if (value!.isEmpty) return errorText;
-      if (isNumeric && double.tryParse(value) == null) return 'Please enter a valid number.';
-      return null;
-    },
+  /// Builds a generic text field for form inputs with enhanced spacing.
+Widget _buildTextField(TextEditingController controller, String label, String errorText, {bool isNumeric = false}) {
+  return Padding(
+    padding: const EdgeInsets.symmetric(vertical: 10.0), // Adds vertical space between fields
+    child: TextFormField(
+      controller: controller,
+      decoration: InputDecoration(
+        labelText: label,
+        border: const OutlineInputBorder(), // Optional: adds a border to make the input field more prominent
+      ),
+      keyboardType: isNumeric ? TextInputType.number : TextInputType.text,
+      validator: (value) {
+        if (value!.isEmpty) return errorText;
+        if (isNumeric && double.tryParse(value) == null) return 'Please enter a valid number.';
+        return null;
+      },
+    ),
   );
+}
 
   /// Builds a list tile for an exercise detail with a delete button.
   Widget _buildExerciseTile(ExerciseDetail detail) => ListTile(
