@@ -145,6 +145,10 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
 
   /// Builds a single workout card with detailed information.
   Widget buildWorkoutCard(BuildContext context, Workout workout) {
+    String formattedDate = DateFormat('MMM dd, yyyy').format(DateTime.parse(workout.date));
+    String titlePrefix = workout.focus ?? "Workout";  // Default to "Workout" if no focus is set
+    String dynamicTitle = "$titlePrefix: $formattedDate";  // Combines the focus and date
+
     return Card(
       elevation: 4,
       margin: const EdgeInsets.all(8),
@@ -153,7 +157,7 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
       ),
       child: ExpansionTile(
         title: Text(
-          "Workout on ${DateFormat('yyyy-MM-dd').format(DateTime.parse(workout.date))}",
+          dynamicTitle,
           style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         subtitle: Text(
@@ -161,7 +165,7 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
         ),
         children: workout.exercises.map((exercise) => ListTile(
           title: Text(exercise.description),
-          subtitle: Text('${exercise.weight} kg - ${exercise.sets} sets x ${exercise.reps} reps'),
+           subtitle: Text('${exercise.weight} kg - ${exercise.sets} sets x ${exercise.reps} reps${exercise.additionalInfo != null ? '\nAdditional Info: ${exercise.additionalInfo}' : ''}'),
         )).toList(),
       ),
     );

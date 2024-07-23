@@ -1,17 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 import 'views/workout_list_screen.dart'; 
-import 'services/database_helper.dart';
+// import 'services/database_helper.dart';
 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();  // Ensure proper initialization
   print('Database path: ${await getDatabasesPath()}');
-  await DatabaseHelper.instance.importWorkoutsFromJson();  // Ensure database is initialized
-  runApp(MyApp());
+  // call the import workout from json method
+  // await DatabaseHelper.instance.importWorkoutsFromJson();
+  
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WorkoutListScreen(),
+      home: const WorkoutListScreen(),
     );
   }
 }

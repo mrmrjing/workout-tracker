@@ -37,7 +37,8 @@ class DatabaseHelper {
       date $textType,
       exercises $textType,
       location $optionalTextType,
-      userWeight $realType
+      userWeight $realType,
+      focus $optionalTextType
     )
     ''');
 
@@ -62,7 +63,10 @@ class DatabaseHelper {
     return Workout(
       id: id,
       date: workout.date,
-      exercises: workout.exercises
+      exercises: workout.exercises,
+      userWeight: workout.userWeight,
+      location: workout.location,
+      focus: workout.focus
     );
   } catch (e) {
     print('Error when inserting a new workout: $e');
@@ -76,7 +80,7 @@ class DatabaseHelper {
     final db = await database;
     final maps = await db.query(
       'workouts',
-      columns: ['id', 'date', 'exercises'],
+      columns: ['id', 'date', 'exercises', 'userWeight', 'location', 'focus'], 
       where: 'id = ?',
       whereArgs: [id],
     );
@@ -87,7 +91,10 @@ class DatabaseHelper {
         date: maps.first['date'] as String,
         exercises: List<ExerciseDetail>.from(
           jsonDecode(maps.first['exercises'].toString()).map((x) => ExerciseDetail.fromMap(x))
-        )
+        ),
+        userWeight: maps.first['userWeight'] as double,
+        location: maps.first['location'] as String,
+        focus: maps.first['focus'] as String
       );
     } else {
       throw Exception('ID $id not found');
@@ -112,7 +119,8 @@ class DatabaseHelper {
       date: map['date'] as String,
       exercises: exercises,
       userWeight: map['userWeight'] as double?,
-      location: map['location'] as String?
+      location: map['location'] as String?,
+      focus: map['focus'] as String?
     );
   }).toList();
 }
@@ -124,7 +132,10 @@ class DatabaseHelper {
       'workouts',
       {
         'date': workout.date,
-        'exercises': jsonEncode(workout.exercises.map((e) => e.toMap()).toList())
+        'exercises': jsonEncode(workout.exercises.map((e) => e.toMap()).toList()),
+        'userWeight': workout.userWeight,
+        'location': workout.location,
+        'focus': workout.focus
       },
       where: 'id = ?',
       whereArgs: [workout.id],
@@ -174,7 +185,8 @@ class DatabaseHelper {
       'date': workoutData['date'],
       'exercises': jsonEncode(workoutData['exercises']),  
       'userWeight': workoutData['userWeight'],
-      'location': workoutData['location']
+      'location': workoutData['location'],
+      'focus': workoutData['focus']
     });
     batch.insert('workouts', workout.toMap(), conflictAlgorithm: ConflictAlgorithm.replace);
   }

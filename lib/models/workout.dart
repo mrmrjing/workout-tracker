@@ -7,6 +7,7 @@ class Workout {
   List<ExerciseDetail> exercises;
   double? userWeight;  // Body weight on the day of the workout
   String? location; // Optional field for tracking workout location
+  String? focus;  // Optional field for tracking workout focus
 
   Workout({
     this.id,
@@ -14,6 +15,7 @@ class Workout {
     required this.exercises,
     this.userWeight,
     this.location,
+    this.focus,
   });
 
   Map<String, dynamic> toMap() {
@@ -23,22 +25,20 @@ class Workout {
       'exercises': jsonEncode(exercises.map((e) => e.toJson()).toList()),
       'userWeight': userWeight,
       'location': location,
+      'focus': focus,
     };
   }
 
   factory Workout.fromMap(Map<String, dynamic> map) {
-  print("Parsing Workout from Map: $map");
-
   List<ExerciseDetail> parsedExercises = List<ExerciseDetail>.from(
     jsonDecode(map['exercises']).map((x) => ExerciseDetail.fromMap(x as Map<String, dynamic>))
   );
-  print("Parsed Exercises: ${parsedExercises.map((e) => e.description).join(', ')}");
 
   double? parsedWeight = map['userWeight'] != null ? double.parse(map['userWeight'].toString()) : null;
   String? parsedLocation = map['location'];
+  String? parsedFocus = map['focus'];
 
-  print("Parsed Weight: $parsedWeight");
-  print("Parsed Location: $parsedLocation");
+  print("Parsed Focus: $parsedFocus");
 
   return Workout(
     id: map['id'],
@@ -46,6 +46,7 @@ class Workout {
     exercises: parsedExercises,
     userWeight: parsedWeight,
     location: parsedLocation,
+    focus: parsedFocus,
   );
 }
 
@@ -58,6 +59,7 @@ class Workout {
       ),
       userWeight: json['userWeight'] != null ? json['userWeight'].toDouble() : null,
       location: json['location'],
+      focus: json['focus'], 
     );
   }
 
@@ -68,6 +70,7 @@ class Workout {
       'exercises': exercises.map((e) => e.toJson()).toList(),
       'userWeight': userWeight,
       'location': location,
+      'focus': focus,
     };
   }
 }
