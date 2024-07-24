@@ -3,6 +3,7 @@ import '../models/workout.dart';
 import '../services/database_helper.dart';
 import '../views/add_workout_screen.dart';
 import '../views/settings_screen.dart'; 
+import '../views/analytics_screen.dart';
 import 'package:intl/intl.dart';
 
 /// This screen displays a list of workouts and offers navigation to add and settings screens.
@@ -68,7 +69,7 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => AddWorkoutScreen()),
+                  MaterialPageRoute(builder: (context) => const AddWorkoutScreen()),
                 ).then((_) => refreshWorkouts());
               },
             ),
@@ -84,6 +85,16 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
                 // Navigate to Account or settings screen
               },
             ),
+            IconButton(
+              icon: const Icon(Icons.bar_chart, color: Colors.white),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const AnalyticsScreen()),
+                );
+              },
+            ),
+
           ],
         ),
       ),
@@ -108,7 +119,7 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
               ),
             ),
           ),
-          buildListTile(context, Icons.add, 'Add New Workout', AddWorkoutScreen()),
+          buildListTile(context, Icons.add, 'Add New Workout', const AddWorkoutScreen()),
           buildListTile(context, Icons.settings, 'Settings', SettingsScreen()),
         ],
       ),
