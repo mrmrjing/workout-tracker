@@ -5,9 +5,9 @@ class Workout {
   int? id;
   String date;
   List<ExerciseDetail> exercises;
-  double? userWeight;  // Body weight on the day of the workout
-  String? location; // Optional field for tracking workout location
-  String? focus;  // Optional field for tracking workout focus
+  double? userWeight;  
+  String? location; 
+  String? focus;  
 
   Workout({
     this.id,
@@ -57,7 +57,7 @@ class Workout {
       exercises: List<ExerciseDetail>.from(
         json['exercises'].map((x) => ExerciseDetail.fromJson(x))
       ),
-      userWeight: json['userWeight'] != null ? json['userWeight'].toDouble() : null,
+      userWeight: json['userWeight']?.toDouble(),
       location: json['location'],
       focus: json['focus'], 
     );
