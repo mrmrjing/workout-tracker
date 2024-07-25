@@ -120,7 +120,7 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
             ),
           ),
           buildListTile(context, Icons.add, 'Add New Workout', const AddWorkoutScreen()),
-          buildListTile(context, Icons.settings, 'Settings', SettingsScreen()),
+          buildListTile(context, Icons.settings, 'Settings', const SettingsScreen()),
         ],
       ),
     );

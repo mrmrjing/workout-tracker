@@ -5,6 +5,8 @@ import '../models/exercise_detail.dart';
 import '../services/database_helper.dart';
 
 class SettingsScreen extends StatefulWidget {
+  const SettingsScreen({super.key});
+
   @override
   _SettingsScreenState createState() => _SettingsScreenState();
 }
@@ -12,7 +14,7 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   final _formKey = GlobalKey<FormState>();
   String? _date;
-  List<ExerciseDetail> _exercises = [];
+  final List<ExerciseDetail> _exercises = [];
   final _controllerDate = TextEditingController();
 
   @override
@@ -41,7 +43,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add New Workout'),
+        title: const Text('Add New Workout'),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -51,7 +53,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             child: Column(
               children: <Widget>[
                 TextFormField(
-                  decoration: InputDecoration(labelText: 'Date'),
+                  decoration: const InputDecoration(labelText: 'Date'),
                   controller: _controllerDate,
                   onTap: () async {
                     DateTime? pickedDate = await showDatePicker(
@@ -75,7 +77,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 // Additional form fields to add exercises will be similar to the AddWorkoutScreen
                 ElevatedButton(
                   onPressed: _saveWorkout,
-                  child: Text('Save Workout'),
+                  child: const Text('Save Workout'),
                 ),
               ],
             ),
