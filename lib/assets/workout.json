@@ -22,7 +22,7 @@
                 "reps": 6
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 4,
                 "reps": 6
@@ -34,7 +34,7 @@
                 "reps": 5
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 12.5,
                 "sets": 3,
                 "reps": 6
@@ -46,13 +46,13 @@
                 "reps": 6
             },
             {
-                "description": "Vertical Leg Raises",
+                "description": "Vertical Leg Raise",
                 "weight": 0.0,
                 "sets": 2,
                 "reps": 10
             },
             {
-                "description": "Pull Up",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": 2,
                 "reps": 5
@@ -64,7 +64,7 @@
         "focus": "Chest and Arms",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -82,7 +82,7 @@
                 "reps": 5
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 12.5,
                 "sets": 3,
                 "reps": 8
@@ -125,7 +125,7 @@
                 "reps": 7
             },
             {
-                "description": "Biceps Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -137,7 +137,7 @@
                 "reps": 7
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 7
@@ -149,7 +149,7 @@
                 "reps": 6
             },
             {
-                "description": "Standing Bicep Curls",
+                "description": "Standing Bicep Curl",
                 "weight": 25.0,
                 "sets": 3,
                 "reps": 6
@@ -174,13 +174,13 @@
                 "reps": 7
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -198,7 +198,7 @@
                 "reps": 3
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 15.0,
                 "sets": 3,
                 "reps": 6
@@ -216,13 +216,13 @@
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Triceps Extensions",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
@@ -252,7 +252,7 @@
                 "reps": 6
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 8
@@ -276,13 +276,13 @@
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
@@ -312,7 +312,7 @@
                 "reps": 3
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 20.0,
                 "sets": 3,
                 "reps": 10
@@ -324,7 +324,7 @@
         "focus": "Chest, arms, back, cardio",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -355,13 +355,13 @@
         "focus": "Arms and shoulders",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 7
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 10.0,
                 "sets": 3,
                 "reps": 12
@@ -379,7 +379,7 @@
                 "reps": 8
             },
             {
-                "description": "Forearm Curls with Barbell",
+                "description": "Forearm Curl",
                 "weight": 5.0,
                 "sets": 3,
                 "reps": 12
@@ -391,7 +391,7 @@
         "focus": "Chest and arms",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 25.0,
                 "sets": 3,
                 "reps": 8
@@ -403,7 +403,7 @@
                 "reps": 5
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 8
@@ -415,13 +415,13 @@
         "focus": "Chest, arms, cardio",
         "exercises": [
             {
-                "description": "Forearms",
+                "description": "Forearm",
                 "weight": 5.0,
                 "sets": 1,
                 "reps": 10
             },
             {
-                "description": "Forearms",
+                "description": "Forearm",
                 "weight": 7.5,
                 "sets": 2,
                 "reps": 7
@@ -439,7 +439,7 @@
                 "reps": 5
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 25.0,
                 "sets": 3,
                 "reps": 8
@@ -451,13 +451,13 @@
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Pull Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": 6,
                 "reps": 5
@@ -489,13 +489,13 @@
                 "reps": 7
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -513,7 +513,7 @@
                 "reps": 3
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 15.0,
                 "sets": 3,
                 "reps": 6
@@ -531,13 +531,13 @@
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Triceps Extensions",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
@@ -567,7 +567,7 @@
                 "reps": 6
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 8
@@ -591,13 +591,13 @@
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
@@ -627,7 +627,7 @@
                 "reps": 3
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 20.0,
                 "sets": 3,
                 "reps": 10
@@ -639,7 +639,7 @@
         "focus": "Chest, arms, back, cardio",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -670,13 +670,13 @@
         "focus": "Arms and shoulders",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 7
             },
             {
-                "description": "Forearm Curls with Barbell",
+                "description": "Forearm Curl with Barbell",
                 "weight": 10.0,
                 "sets": 3,
                 "reps": 12
@@ -694,7 +694,7 @@
                 "reps": 8
             },
             {
-                "description": "Forearm Curls with Barbell",
+                "description": "Forearm Curl with Barbell",
                 "weight": 5.0,
                 "sets": 3,
                 "reps": 12
@@ -706,7 +706,7 @@
         "focus": "Chest and arms",
         "exercises": [
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 12.5,
                 "sets": 3,
                 "reps": 8
@@ -718,7 +718,7 @@
                 "reps": 5
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 8
@@ -754,7 +754,7 @@
                 "reps": 5
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 12.5,
                 "sets": 3,
                 "reps": 8
@@ -766,13 +766,13 @@
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Pull Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": 6,
                 "reps": 5
@@ -821,7 +821,7 @@
                 "reps": 3
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 32.0,
                 "sets": 3,
                 "reps": 5
@@ -833,7 +833,7 @@
                 "reps": 5
             },
             {
-                "description": "Pull Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -845,31 +845,31 @@
         "focus": "Lats, arms and cardio",
         "exercises": [
             {
-                "description": "Lats Pulldown",
+                "description": "Lats Pull Down",
                 "weight": 39.0,
                 "sets": 1,
                 "reps": 6
             },
             {
-                "description": "Lats Pulldown",
+                "description": "Lats Pull Down",
                 "weight": 45.0,
                 "sets": 1,
                 "reps": 5
             },
             {
-                "description": "Forearms Curl",
+                "description": "Forearm Curl",
                 "weight": 5.0,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 20.0,
                 "sets": 1,
                 "reps": 7
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 25.0,
                 "sets": 2,
                 "reps": 7
@@ -881,7 +881,7 @@
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 7
@@ -936,7 +936,7 @@
                 "reps": 8
             },
             {
-                "description": "Lats Pulldown",
+                "description": "Lats Pull Down",
                 "weight": 39.0,
                 "sets": 3,
                 "reps": 7
@@ -954,7 +954,7 @@
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 8
@@ -966,7 +966,7 @@
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 2,
                 "reps": 8
@@ -979,19 +979,19 @@
         "userWeight": 63.3,
         "exercises": [
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 40.0,
                 "sets": 1,
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 2,
                 "reps": 7
@@ -1040,13 +1040,13 @@
                 "additionalInfo": "1 min per set"
             },
             {
-                "description": "Pushups",
+                "description": "Push up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
             },
             {
-                "description": "Sit-ups",
+                "description": "Sit Up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1065,13 +1065,13 @@
                 "reps": 4
             },
             {
-                "description": "Side Pulls",
+                "description": "Side Pull",
                 "weight": 50.0,
                 "sets": 3,
                 "reps": 5
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 6
@@ -1084,13 +1084,13 @@
                 "additionalInfo": "Time: 24:09, Speed: 10 km/h"
             },
             {
-                "description": "Push Ups",
+                "description": "Push up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
             },
             {
-                "description": "Pull Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1110,37 +1110,37 @@
         "userWeight": 63.6,
         "exercises": [
             {
-                "description": "Forearms Curl",
+                "description": "Forearm Curl",
                 "weight": 10.0,
                 "sets": 1,
                 "reps": 5
             },
             {
-                "description": "Forearms Curl",
+                "description": "Forearm Curl",
                 "weight": 5.0,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 15.0,
                 "sets": 2,
                 "reps": 5
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 12.5,
                 "sets": 2,
                 "reps": 8
             },
             {
-                "description": "Bent Over Lats Pull Downs",
+                "description": "Lats Pull Down",
                 "weight": 46.0,
                 "sets": 1,
                 "reps": 7
             },
             {
-                "description": "Lats Pulldown",
+                "description": "Lats Pull Down",
                 "weight": 36.0,
                 "sets": 2,
                 "reps": 5
@@ -1152,7 +1152,7 @@
                 "reps": 6
             },
             {
-                "description": "Sit Ups",
+                "description": "Sit Up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1164,7 +1164,7 @@
                 "reps": 6
             },
             {
-                "description": "Leg Raises",
+                "description": "Leg Raise",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1189,7 +1189,7 @@
                 "reps": 6
             },
             {
-                "description": "Seated Bicep Curls",
+                "description": "Seated Bicep Curl",
                 "weight": 25.0,
                 "sets": 3,
                 "reps": 8
@@ -1231,7 +1231,7 @@
                 "reps": 15
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
@@ -1268,13 +1268,13 @@
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 25.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Pull-Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": 3,
                 "reps": 8
@@ -1306,7 +1306,7 @@
                 "reps": 6
             },
             {
-                "description": "Tricep Extensions",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
@@ -1318,13 +1318,13 @@
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 2,
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 32.0,
                 "sets": 1,
                 "reps": 5
@@ -1336,7 +1336,7 @@
                 "reps": 6
             },
             {
-                "description": "Lats Pulldown",
+                "description": "Lats Pull Down",
                 "weight": 45.0,
                 "sets": 2,
                 "reps": 6
@@ -1368,31 +1368,31 @@
                 "reps": 5
             },
             {
-                "description": "Lats Pulldown",
+                "description": "Lats Pull Down",
                 "weight": 45.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 15.0,
                 "sets": 1,
                 "reps": 5
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 27.0,
                 "sets": 1,
                 "reps": 6
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 2,
                 "reps": 6
@@ -1435,7 +1435,7 @@
                 "reps": 7
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 1,
                 "reps": 6
@@ -1522,7 +1522,7 @@
                 "reps": 7
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 3,
                 "reps": 7
@@ -1540,7 +1540,7 @@
                 "reps": 6
             },
             {
-                "description": "Pull-Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1565,7 +1565,7 @@
                 "reps": 5
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 7
@@ -1577,7 +1577,7 @@
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 25.0,
                 "sets": 2,
                 "reps": 7
@@ -1589,7 +1589,7 @@
                 "reps": 7
             },
             {
-                "description": "Pull-Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1651,19 +1651,19 @@
                 "reps": 5
             },
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 50.0,
                 "sets": 3,
                 "reps": 7
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 25.0,
                 "sets": 3,
                 "reps": 7
             },
             {
-                "description": "Seated Triceps Extension",
+                "description": "Seated Tricep Extension",
                 "weight": 12.5,
                 "sets": 3,
                 "reps": 7
@@ -1687,7 +1687,7 @@
                 "reps": 8
             },
             {
-                "description": "Pull-Ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": "Variable",
                 "reps": "Variable"
@@ -1706,7 +1706,7 @@
         "focus": "Chest, arms and back",
         "exercises": [
             {
-                "description": "Pullups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": 1,
                 "reps": 10
@@ -1742,13 +1742,13 @@
                 "reps": 7
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 12.5,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 18.0,
                 "sets": 3,
                 "reps": 7
@@ -1760,7 +1760,7 @@
         "focus": "Legs and shoulders",
         "exercises": [
             {
-                "description": "Pull-ups",
+                "description": "Pull up",
                 "weight": 0.0,
                 "sets": 1,
                 "reps": 3
@@ -1772,13 +1772,13 @@
                 "reps": 8
             },
             {
-                "description": "Calf Raises",
+                "description": "Calf Raise",
                 "weight": 30.0,
                 "sets": 1,
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 18.0,
                 "sets": 3,
                 "reps": 10
@@ -1790,19 +1790,19 @@
                 "reps": 10
             },
             {
-                "description": "Long Pull",
+                "description": "Long pull",
                 "weight": 23.0,
                 "sets": 1,
                 "reps": 8
             },
             {
-                "description": "Pulldown",
+                "description": "Pull down",
                 "weight": 32.0,
                 "sets": 2,
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 18.0,
                 "sets": 2,
                 "reps": 8
@@ -1827,13 +1827,13 @@
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 23.0,
                 "sets": 2,
                 "reps": 6
             },
             {
-                "description": "Concentrated Biceps Curl",
+                "description": "Concentrated Bicep Curl",
                 "weight": 30.0,
                 "sets": 3,
                 "reps": 6
@@ -1845,7 +1845,7 @@
                 "reps": 8
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 23.0,
                 "sets": 2,
                 "reps": 8
@@ -1907,13 +1907,13 @@
                 "reps": 8
             },
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 60.0,
                 "sets": 1,
                 "reps": 7
             },
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 80.0,
                 "sets": 2,
                 "reps": 5
@@ -1950,7 +1950,7 @@
                 "reps": 9
             },
             {
-                "description": "Tricep Extensions",
+                "description": "Tricep Extension",
                 "weight": 15.0,
                 "sets": 3,
                 "reps": 8
@@ -2037,13 +2037,13 @@
         "userWeight": 63.4,
         "exercises": [
             {
-                "description": "Biceps Curl",
+                "description": "Bicep Curl",
                 "weight": 28.0,
                 "sets": 3,
                 "reps": 7
             },
             {
-                "description": "Biceps Curl",
+                "description": "Bicep Curl",
                 "weight": 24.0,
                 "sets": 2,
                 "reps": 7
@@ -2159,25 +2159,25 @@
                 "reps": 8
             },
             {
-                "description": "Forearms Curl",
+                "description": "Forearm Curl",
                 "weight": 10.0,
                 "sets": 2,
                 "reps": 8
             },
             {
-                "description": "Forearms Curl",
+                "description": "Forearm Curl",
                 "weight": 20.0,
                 "sets": 1,
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 8
@@ -2202,25 +2202,25 @@
         "userWeight": 62.8,
         "exercises": [
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 50.0,
                 "sets": 1,
                 "reps": 8
             },
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 70.0,
                 "sets": 1,
                 "reps": 6
             },
             {
-                "description": "Deadlifts",
+                "description": "Deadlift",
                 "weight": 80.0,
                 "sets": 2,
                 "reps": 5
             },
             {
-                "description": "Long Pull",
+                "description": "Long pull",
                 "weight": 36.0,
                 "sets": 3,
                 "reps": 8
@@ -2238,7 +2238,7 @@
                 "reps": 6
             },
             {
-                "description": "Bicep Curls",
+                "description": "Bicep Curl",
                 "weight": 17.5,
                 "sets": 2,
                 "reps": 6
@@ -2275,7 +2275,7 @@
                 "reps": 5
             },
             {
-                "description": "Concentrated Bicep Curls",
+                "description": "Concentrated Bicep Curl",
                 "weight": 15.0,
                 "sets": 3,
                 "reps": 6
@@ -2287,7 +2287,7 @@
                 "reps": 8
             },
             {
-                "description": "Dumbbells Row",
+                "description": "Dumbell Row",
                 "weight": 15.0,
                 "sets": 3,
                 "reps": 8
@@ -2305,13 +2305,13 @@
                 "reps": 8
             },
             {
-                "description": "Shoulder Shrug",
+                "description": "Shoulder Shrugs",
                 "weight": 20.0,
                 "sets": 2,
                 "reps": 8
             },
             {
-                "description": "Triceps Extension",
+                "description": "Tricep Extension",
                 "weight": 27.0,
                 "sets": 3,
                 "reps": 9
@@ -2336,13 +2336,13 @@
                 "reps": 5
             },
             {
-                "description": "Calf Raises",
+                "description": "Calf Raise",
                 "weight": 40.0,
                 "sets": 1,
                 "reps": 8
             },
             {
-                "description": "Calf Raises",
+                "description": "Calf Raise",
                 "weight": 60.0,
                 "sets": 2,
                 "reps": 8
@@ -2379,5 +2379,152 @@
                 "additionalInfo": "Time: 12 mins"
             }
         ]
+    },
+    {
+        "date": "2024-07-24",
+        "focus": "Chest and arms",
+        "userWeight": 63.4,
+        "exercises": [
+            {
+                "description": "Shoulder Press",
+                "weight": 50.0,
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "description": "Bicep Curl",
+                "weight": 27,
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "description": "Chest Press",
+                "weight": 60.0,
+                "sets": 3,
+                "reps": 7
+            },
+            {
+                "description": "Tricep Extension",
+                "weight": 27.0,
+                "sets": 3,
+                "reps": 7
+            },
+            {
+                "description": "Barbell Curl",
+                "weight": 25.0,
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "description": "Forearm Curl",
+                "weight": 10,
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "description": "Forearm Curl",
+                "weight": 20,
+                "sets": 2,
+                "reps": 5
+            },
+            {
+                "description": "Assisted inclined bench press ",
+                "weight": 60,
+                "sets": "3",
+                "reps": "6"
+            }
+        ]
+    },
+    {
+        "date": "2024-07-25",
+        "focus": "Back and shoulders",
+        "userWeight": 63.3,
+        "exercises": [
+            {
+                "description": "Deadlift",
+                "weight": 50.0,
+                "sets": 1,
+                "reps": 10
+            },
+            {
+                "description": "Deadlift",
+                "weight": 80,
+                "sets": 2,
+                "reps": 5
+            },
+            {
+                "description": "Deadlift",
+                "weight": 90.0,
+                "sets": 2,
+                "reps": 5
+            },
+            {
+                "description": "Deadlift",
+                "weight": 100,
+                "sets": 2,
+                "reps": 3
+            },
+            {
+                "description": "Overhead Press",
+                "weight": 20,
+                "sets": 1,
+                "reps": 8
+            },
+            {
+                "description": "Overhead Press",
+                "weight": 30.0,
+                "sets": 3,
+                "reps": 6
+            },
+            {
+                "description": "Back Row",
+                "weight": 20.0,
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "description": "Squats",
+                "weight": 60.0,
+                "sets": 2,
+                "reps": 5
+            },
+            {
+                "description": "Squats",
+                "weight": 90,
+                "sets": 1,
+                "reps": 1
+            },
+            {
+                "description": "Side Lateral Raise",
+                "weight": 7.0,
+                "sets": 3,
+                "reps": 8
+            },
+            {
+                "description": "Side Lateral Raise",
+                "weight": 10.0,
+                "sets": 1,
+                "reps": 3
+            },
+            {
+                "description": "Rear Delt Fly",
+                "weight": 7.5,
+                "sets": "1",
+                "reps": "3"
+            },
+            {
+                "description": "Rear Delt Fly",
+                "weight": 5.0,
+                "sets": "1",
+                "reps": "8"
+            },
+            {
+                "description": "Rear Delts",
+                "weight": 27.0,
+                "sets": "1",
+                "reps": "7"
+            }
+        ]
+
     }
 ]
