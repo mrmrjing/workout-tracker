@@ -104,8 +104,8 @@ class DatabaseHelper {
   Future<List<Workout>> readAllWorkouts() async {
   final db = await database;
   final result = await db.query('workouts', orderBy: 'date ASC');
-  print('Workouts fetched: ${result.length}');
   
+
   return result.map((map) {
     final exercisesData = map['exercises'] as String?;
     List<ExerciseDetail> exercises = [];
