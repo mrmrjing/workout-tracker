@@ -6,7 +6,7 @@ import '../views/settings_screen.dart';
 import '../views/analytics_screen.dart';
 import 'package:intl/intl.dart';
 
-/// This screen displays a list of workouts and offers navigation to add and settings screens.
+/// This screen displays a list of workouts and offers navigation to various app functions.
 class WorkoutListScreen extends StatefulWidget {
   const WorkoutListScreen({super.key});
 
@@ -21,12 +21,12 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
   @override
   void initState() {
     super.initState();
-    refreshWorkouts();
+    refreshWorkouts(); // Refreshing workouts on state initialization
   }
 
   @override
   void dispose() {
-    DatabaseHelper.instance.close();
+    DatabaseHelper.instance.close(); // Closing database when the screen is disposed
     super.dispose();
   }
 
@@ -42,62 +42,11 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My Workouts'),
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Colors.blue[800], // Darker shade of blue for the app bar
       ),
-      drawer: buildDrawer(context),
-      body: buildWorkoutList(),
-      bottomNavigationBar: BottomAppBar(
-        color: Colors.blue[800],  // Ensures the bottom app bar is a solid color
-        child: Row(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: <Widget>[
-            IconButton(
-              icon: const Icon(Icons.home, color: Colors.white),
-              onPressed: () {
-                // Home Screen or refresh current screen
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.search, color: Colors.white),
-              onPressed: () {
-                // Navigate to Search or some other function
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.add, color: Colors.white),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const AddWorkoutScreen()),
-                ).then((_) => refreshWorkouts());
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.notifications, color: Colors.white),
-              onPressed: () {
-                // Navigate to notifications or another function
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.account_circle, color: Colors.white),
-              onPressed: () {
-                // Navigate to Account or settings screen
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.bar_chart, color: Colors.white),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const AnalyticsScreen()),
-                );
-              },
-            ),
-
-          ],
-        ),
-      ),
+      drawer: buildDrawer(context), // Drawer for navigation
+      body: buildWorkoutList(), // Main content of the screen
+      bottomNavigationBar: buildBottomNavigationBar(context), // Bottom navigation bar
     );
   }
 
@@ -135,7 +84,7 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => destinationScreen),
-        ).then((_) => refreshWorkouts());
+        ).then((_) => refreshWorkouts()); // Refresh workouts on return
       },
     );
   }
@@ -176,8 +125,63 @@ class WorkoutListScreenState extends State<WorkoutListScreen> {
         ),
         children: workout.exercises.map((exercise) => ListTile(
           title: Text(exercise.description),
-           subtitle: Text('${exercise.weight} kg - ${exercise.sets} sets x ${exercise.reps} reps${exercise.additionalInfo != null ? '\nAdditional Info: ${exercise.additionalInfo}' : ''}'),
+          subtitle: Text('${exercise.weight} kg - ${exercise.sets} sets x ${exercise.reps} reps${exercise.additionalInfo != null ? '\nAdditional Info: ${exercise.additionalInfo}' : ''}'),
         )).toList(),
+      ),
+    );
+  }
+
+  /// Constructs the bottom navigation bar for the app.
+  Widget buildBottomNavigationBar(BuildContext context) {
+    return BottomAppBar(
+      color: Colors.blue[800], // Consistent color with the app bar
+      child: Row(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.home, color: Colors.white),
+            onPressed: () {
+              // Placeholder for home or refresh functionality
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.search, color: Colors.white),
+            onPressed: () {
+              // Placeholder for search functionality
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.add, color: Colors.white),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AddWorkoutScreen()),
+              ).then((_) => refreshWorkouts()); // Refresh after adding
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.notifications, color: Colors.white),
+            onPressed: () {
+              // Placeholder for notifications functionality
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.account_circle, color: Colors.white),
+            onPressed: () {
+              // Placeholder for account or settings functionality
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.bar_chart, color: Colors.white),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AnalyticsScreen()),
+              );
+            },
+          ),
+        ],
       ),
     );
   }

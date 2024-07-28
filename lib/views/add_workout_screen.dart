@@ -4,7 +4,7 @@ import '../models/workout.dart';
 import '../models/exercise_detail.dart';
 import '../services/database_helper.dart';
 
-/// This screen allows the user to add a new workout with multiple exercises.
+/// Screen to add a new workout with multiple exercises. Users can input details for each exercise and submit the workout.
 class AddWorkoutScreen extends StatefulWidget {
   const AddWorkoutScreen({super.key});
 

@@ -7,6 +7,7 @@ import '../models/workout.dart';
 import '../models/exercise_detail.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+// A singleton class to manage database operations for the application.
 class DatabaseHelper {
   static final DatabaseHelper instance = DatabaseHelper._init();
   static Database? _database;
@@ -19,12 +20,14 @@ class DatabaseHelper {
     return _database!;
   }
 
+  /// Initializes the database with the specified file path.
   Future<Database> _initDB(String filePath) async {
     final dbPath = await getApplicationDocumentsDirectory();
     final path = join(dbPath.path, filePath);
     return await openDatabase(path, version: 1, onCreate: _createDB);
   }
 
+  /// Creates the necessary tables when the database is first created.
   Future _createDB(Database db, int version) async {
     const idType = 'INTEGER PRIMARY KEY AUTOINCREMENT';
     const textType = 'TEXT NOT NULL';
@@ -52,14 +55,11 @@ class DatabaseHelper {
     ''');
   }
 
+  /// Inserts a new workout into the database.
   Future<Workout> createWorkout(Workout workout) async {
   final db = await database;
-  final exercisesJson = jsonEncode(workout.exercises.map((e) => e.toJson()).toList());
-  print('Inserting workout: $exercisesJson');
-
   try {
     final id = await db.insert('workouts', workout.toMap(), conflictAlgorithm: ConflictAlgorithm.replace);
-    print('Inserted workout with id: $id');
     return Workout(
       id: id,
       date: workout.date,
@@ -69,13 +69,11 @@ class DatabaseHelper {
       focus: workout.focus
     );
   } catch (e) {
-    print('Error when inserting a new workout: $e');
     throw Exception('Failed to create workout');
   }
 }
 
-
-
+  /// Retrieves a workout by its ID.
   Future<Workout> readWorkout(int id) async {
     final db = await database;
     final maps = await db.query(
@@ -101,11 +99,10 @@ class DatabaseHelper {
     }
   }
 
+  /// Retrieves all workouts in the database.
   Future<List<Workout>> readAllWorkouts() async {
   final db = await database;
   final result = await db.query('workouts', orderBy: 'date ASC');
-  
-
   return result.map((map) {
     final exercisesData = map['exercises'] as String?;
     List<ExerciseDetail> exercises = [];
@@ -125,7 +122,7 @@ class DatabaseHelper {
   }).toList();
 }
 
-
+  /// Updates an existing workout.
   Future<int> updateWorkout(Workout workout) async {
     final db = await database;
     return db.update(
@@ -142,6 +139,7 @@ class DatabaseHelper {
     );
   }
 
+   /// Deletes a workout by its ID.
   Future<int> deleteWorkout(int id) async {
     final db = await database;
     return db.delete(
@@ -151,7 +149,7 @@ class DatabaseHelper {
     );
   }
 
-  // CRUD operations for goals (remain unchanged)
+  // CRUD operations for goals 
   Future<Goal> createGoal(Goal goal) async {
     final db = await instance.database;
     final id = await db.insert('goals', goal.toMap());
@@ -174,6 +172,7 @@ class DatabaseHelper {
     return result.map((map) => Goal.fromMap(map)).toList();
   }
 
+  /// Imports workout data from a JSON file and adds them to the database.
   Future<void> importWorkoutsFromJson() async {
   final String response = await rootBundle.loadString('lib/assets/workout.json');
   final data = await json.decode(response);
@@ -194,7 +193,7 @@ class DatabaseHelper {
   print("Workouts imported.");
 }
 
-
+  /// Closes the database.
   Future close() async {
     final db = await instance.database;
     db.close();

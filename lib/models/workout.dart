@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'exercise_detail.dart';
 
+/// Represents a workout consisting of multiple exercises, optionally including metadata like weight and focus.
 class Workout {
   int? id;
   String date;
@@ -9,6 +10,7 @@ class Workout {
   String? location; 
   String? focus;  
 
+  /// Constructs a new `Workout` instance.
   Workout({
     this.id,
     required this.date,
@@ -18,6 +20,7 @@ class Workout {
     this.focus,
   });
 
+  /// Converts a `Workout` instance to a Map for database storage, encoding the list of exercises as JSON.
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -29,27 +32,27 @@ class Workout {
     };
   }
 
+  /// Creates a `Workout` instance from a Map, typically from database fields, decoding JSON for the exercises.
   factory Workout.fromMap(Map<String, dynamic> map) {
-  List<ExerciseDetail> parsedExercises = List<ExerciseDetail>.from(
-    jsonDecode(map['exercises']).map((x) => ExerciseDetail.fromMap(x as Map<String, dynamic>))
-  );
+    List<ExerciseDetail> parsedExercises = List<ExerciseDetail>.from(
+      jsonDecode(map['exercises']).map((x) => ExerciseDetail.fromMap(x as Map<String, dynamic>))
+    );
 
-  double? parsedWeight = map['userWeight'] != null ? double.parse(map['userWeight'].toString()) : null;
-  String? parsedLocation = map['location'];
-  String? parsedFocus = map['focus'];
+    double? parsedWeight = map['userWeight'] != null ? double.parse(map['userWeight'].toString()) : null;
+    String? parsedLocation = map['location'];
+    String? parsedFocus = map['focus'];
 
-  print("Parsed Focus: $parsedFocus");
+    return Workout(
+      id: map['id'],
+      date: map['date'],
+      exercises: parsedExercises,
+      userWeight: parsedWeight,
+      location: parsedLocation,
+      focus: parsedFocus,
+    );
+  }
 
-  return Workout(
-    id: map['id'],
-    date: map['date'],
-    exercises: parsedExercises,
-    userWeight: parsedWeight,
-    location: parsedLocation,
-    focus: parsedFocus,
-  );
-}
-
+  /// Creates a `Workout` instance from a JSON object, for scenarios like fetching from an API or config file.
   factory Workout.fromJson(Map<String, dynamic> json) {
     return Workout(
       id: json['id'],
@@ -63,6 +66,7 @@ class Workout {
     );
   }
 
+  /// Converts a `Workout` instance to a JSON object for easy serialization.
   Map<String, dynamic> toJson() {
     return {
       'id': id,

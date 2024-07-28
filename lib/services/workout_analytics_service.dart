@@ -8,20 +8,18 @@ class WorkoutAnalyticsService {
 
   /// Fetches all workouts and computes analytics
   Future<Map<String, dynamic>> getWorkoutAnalytics() async {
-  List<Workout> workouts = await _dbHelper.readAllWorkouts();
-
-  Map<DateTime, double> totalWeightPerSession = _calculateTotalWeightPerSession(workouts);
-  Map<DateTime, double> totalRepsPerSession = _calculateTotalRepsPerSession(workouts);
-
-  return {
-    'totalWorkouts': workouts.length,
-    'workoutsPerWeek': _calculateFrequency(workouts),
-    'averageWeightPerExercise': await _calculateAverageWeightPerExercise(workouts),
-    'totalWeightPerSession': totalWeightPerSession,
-    'averageRepsPerExercise': await _calculateAverageRepsPerExercise(workouts),
-    'totalRepsPerSession': totalRepsPerSession  
-  };
-}
+    List<Workout> workouts = await _dbHelper.readAllWorkouts();
+    Map<DateTime, double> totalWeightPerSession = _calculateTotalWeightPerSession(workouts);
+    Map<DateTime, double> totalRepsPerSession = _calculateTotalRepsPerSession(workouts);
+    return {
+      'totalWorkouts': workouts.length,
+      'workoutsPerWeek': _calculateFrequency(workouts),
+      'averageWeightPerExercise': await _calculateAverageWeightPerExercise(workouts),
+      'totalWeightPerSession': totalWeightPerSession,
+      'averageRepsPerExercise': await _calculateAverageRepsPerExercise(workouts),
+      'totalRepsPerSession': totalRepsPerSession  
+    };
+  }
 
   /// Calculates frequency of workouts per week
   double _calculateFrequency(List<Workout> workouts) {
@@ -55,7 +53,6 @@ class WorkoutAnalyticsService {
       double total = weightList.reduce((sum, element) => sum + element);
       averages[description] = total / weightList.length;
     });
-
     return averages;
   }
 
@@ -68,8 +65,6 @@ class WorkoutAnalyticsService {
     }
     return totalReps;
   }
-
-
 
   /// Calculates the total weight lifted per session across all workouts
   Map<DateTime, double> _calculateTotalWeightPerSession(List<Workout> workouts) {
@@ -101,6 +96,4 @@ class WorkoutAnalyticsService {
 
     return averages;
   }
-
-
 }

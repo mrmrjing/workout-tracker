@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-import '../models/workout.dart';
-import '../models/exercise_detail.dart';
-import '../services/database_helper.dart';
 
+/// A settings screen typically used for managing user preferences and app configurations.
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
 
@@ -12,77 +9,81 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  final _formKey = GlobalKey<FormState>();
-  String? _date;
-  final List<ExerciseDetail> _exercises = [];
-  final _controllerDate = TextEditingController();
-
-  @override
-  void dispose() {
-    _controllerDate.dispose();
-    super.dispose();
-  }
-
-  void _addExercise() {
-    // Function to add a new exercise to the list, using form data
-    if (_formKey.currentState!.validate()) {
-      _formKey.currentState!.save(); // Save current state of the form
-      Navigator.of(context).pop();    // Optionally close the settings screen
-    }
-  }
-
-  void _saveWorkout() async {
-    if (_date != null && _exercises.isNotEmpty) {
-      Workout newWorkout = Workout(date: _date!, exercises: _exercises);
-      await DatabaseHelper.instance.createWorkout(newWorkout);
-      Navigator.of(context).pop(); // Return to previous screen after saving
-    }
-  }
+  bool _darkTheme = false;
+  bool _notificationsEnabled = true;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add New Workout'),
+        title: const Text('Settings'),
       ),
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Form(
-            key: _formKey,
-            child: Column(
-              children: <Widget>[
-                TextFormField(
-                  decoration: const InputDecoration(labelText: 'Date'),
-                  controller: _controllerDate,
-                  onTap: () async {
-                    DateTime? pickedDate = await showDatePicker(
-                      context: context,
-                      initialDate: DateTime.now(),
-                      firstDate: DateTime(2000),
-                      lastDate: DateTime(2100),
-                    );
-                    if (pickedDate != null) {
-                      _controllerDate.text = DateFormat('yyyy-MM-dd').format(pickedDate);
-                      _date = _controllerDate.text;
-                    }
-                  },
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please enter a date.';
-                    }
-                    return null;
-                  },
-                ),
-                // Additional form fields to add exercises will be similar to the AddWorkoutScreen
-                ElevatedButton(
-                  onPressed: _saveWorkout,
-                  child: const Text('Save Workout'),
-                ),
-              ],
-            ),
+      body: ListView(
+        children: <Widget>[
+          SwitchListTile(
+            title: const Text('Dark Theme'),
+            value: _darkTheme,
+            onChanged: (bool value) {
+              setState(() {
+                _darkTheme = value;
+                // Add logic to change the theme in the app
+              });
+            },
+            secondary: const Icon(Icons.lightbulb_outline),
           ),
-        ),
+          SwitchListTile(
+            title: const Text('Enable Notifications'),
+            value: _notificationsEnabled,
+            onChanged: (bool value) {
+              setState(() {
+                _notificationsEnabled = value;
+                // Add logic to manage notifications settings
+              });
+            },
+            secondary: const Icon(Icons.notifications_active),
+          ),
+          ListTile(
+            title: const Text('Account Settings'),
+            leading: const Icon(Icons.person),
+            onTap: () {
+              // Navigate to account settings page
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AccountSettingsScreen()),
+              );
+            },
+          ),
+          ListTile(
+            title: const Text('About'),
+            leading: const Icon(Icons.info),
+            onTap: () {
+              // Show about dialog or navigate to about screen
+              showAboutDialog(
+                context: context,
+                applicationName: 'App Name',
+                applicationVersion: '1.0.0',
+                applicationLegalese: '© 2023 Company Name',
+              );
+            },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Placeholder widget for AccountSettingsScreen, replace with actual implementation.
+class AccountSettingsScreen extends StatelessWidget {
+  const AccountSettingsScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Account Settings'),
+      ),
+      body: const Center(
+        child: Text('Account settings go here.'),
       ),
     );
   }

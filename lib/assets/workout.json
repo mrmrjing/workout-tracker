@@ -189,7 +189,7 @@
     },
     {
         "date": "2023-10-27",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Bench Press",
@@ -207,7 +207,7 @@
     },
     {
         "date": "2023-11-08",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Converging Chest Press",
@@ -231,7 +231,7 @@
     },
     {
         "date": "2023-11-10",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Shoulder Press",
@@ -297,7 +297,7 @@
     },
     {
         "date": "2023-11-22",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Bench Press",
@@ -388,7 +388,7 @@
     },
     {
         "date": "2023-12-02",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Bicep Curl",
@@ -504,7 +504,7 @@
     },
     {
         "date": "2023-10-27",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Bench Press",
@@ -522,7 +522,7 @@
     },
     {
         "date": "2023-11-08",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Converging Bench Press",
@@ -546,7 +546,7 @@
     },
     {
         "date": "2023-11-10",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Shoulder Press",
@@ -612,7 +612,7 @@
     },
     {
         "date": "2023-11-22",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Bench Press",
@@ -703,7 +703,7 @@
     },
     {
         "date": "2023-12-02",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "exercises": [
             {
                 "description": "Bicep Curl",
@@ -1494,7 +1494,7 @@
     },
     {
         "date": "2024-06-22",
-        "focus": "Chest and arms", 
+        "focus": "Chest and Arms", 
         "userWeight": 62.9,
         "exercises": [
             {
@@ -2382,7 +2382,7 @@
     },
     {
         "date": "2024-07-24",
-        "focus": "Chest and arms",
+        "focus": "Chest and Arms",
         "userWeight": 63.4,
         "exercises": [
             {
@@ -2525,6 +2525,78 @@
                 "reps": "7"
             }
         ]
-
+    },
+    {
+        "date": "2024-07-27",
+        "focus": "Chest and Arms",
+        "userWeight": 63,
+        "exercises": [
+            {
+                "description": "Bench Press",
+                "weight": 40.0,
+                "sets": 2,
+                "reps": 8
+            },
+            {
+                "description": "Bench Press",
+                "weight": 50.0,
+                "sets": 2,
+                "reps": 8
+            },
+            {
+                "description": "Bench Press",
+                "weight": 55.0,
+                "sets": 1,
+                "reps": 1
+            },
+            {
+                "description": "Chest Press",
+                "weight": 40.0,
+                "sets": 2,
+                "reps": 8
+            },
+            {
+                "description": "Pec Fly",
+                "weight": 36.0,
+                "sets": 3,
+                "reps": 7
+            },
+            {
+                "description": "Barbell Curl",
+                "weight": 25.0,
+                "sets": 2,
+                "reps": 8
+            },
+            {
+                "description": "Barbell Curl",
+                "weight": 30.0,
+                "sets": 2,
+                "reps": 5
+            },
+            {
+                "description": "Assisted Bench Press",
+                "weight": 50.0,
+                "sets": 2,
+                "reps": 8
+            },
+            {
+                "description": "Tricep Extension",
+                "weight": 27.0,
+                "sets": 2,
+                "reps": 8
+            },
+            {
+                "description": "Bicep Curl",
+                "weight": 12.5,
+                "sets": 1,
+                "reps": 8
+            },
+            {
+                "description": "Bicep Curl",
+                "weight": 15.0,
+                "sets": 1,
+                "reps": 6
+            }
+        ]
     }
 ]
