@@ -4,7 +4,7 @@ import '../models/workout.dart';
 import '../models/exercise_detail.dart';
 import '../services/database_helper.dart';
 
-/// This screen allows the user to add a new workout with multiple exercises.
+/// Screen to add a new workout with multiple exercises. Users can input details for each exercise and submit the workout.
 class AddWorkoutScreen extends StatefulWidget {
   const AddWorkoutScreen({super.key});
 
@@ -41,7 +41,7 @@ class AddWorkoutScreenState extends State<AddWorkoutScreen> {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
       _exercises.add(ExerciseDetail(
-        description: _controllerDescription.text,
+        description: normalizeDescription(_controllerDescription.text),
         weight: double.parse(_controllerWeight.text),
         sets: int.parse(_controllerSets.text),
         reps: int.parse(_controllerReps.text),
@@ -100,7 +100,7 @@ class AddWorkoutScreenState extends State<AddWorkoutScreen> {
   /// Adds the current input as an exercise if all fields are filled correctly.
   void _addCurrentInputAsExercise() {
     _exercises.add(ExerciseDetail(
-      description: _controllerDescription.text,
+      description: normalizeDescription(_controllerDescription.text),
       weight: double.parse(_controllerWeight.text),
       sets: int.parse(_controllerSets.text),
       reps: int.parse(_controllerReps.text),
@@ -208,4 +208,9 @@ Widget _buildTextField(TextEditingController controller, String label, String er
       onPressed: () => setState(() => _exercises.remove(detail)),
     ),
   );
+
+  /// Normalizes the input string by removing leading/trailing whitespace and converting to lowercase.
+  String normalizeDescription(String description) {
+    return description.trim().replaceAll(RegExp(' +'), ' ').toLowerCase();
+  }
 }
